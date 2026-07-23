@@ -3,6 +3,8 @@
 Penguenler hakkında eğlenceli, renkli ve interaktif bir web sitesi. Tamamen tek bir HTML dosyasından
 oluşur — dış bağımlılık, kurulum veya build adımı gerektirmez.
 
+👉 **Canlı Site:** [https://penguen-arda.shipstatic.com](https://penguen-arda.shipstatic.com)
+
 ## 🌟 İçindekiler
 
 - **Ana Sayfa:** Renkli, animasyonlu bir karşılama bölümü
