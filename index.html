@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Penguenlerin Büyülü Dünyası - Eğlenceli ve renkli bir penguen web sitesi">
-    <title>🐧 Penguenlerin Büyülü Dünyası</title>
+    <meta name="description" content="The Magical World of Penguins - a fun and colourful penguin website">
+    <title>🐧 The Magical World of Penguins</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&family=Fredoka+One&display=swap" rel="stylesheet">
     <style>
-        /* ===== GENEL AYARLAR ===== */
+        /* ===== GLOBAL SETTINGS ===== */
         * {
             margin: 0;
             padding: 0;
@@ -22,7 +22,7 @@
             scroll-behavior: smooth;
         }
 
-        /* ===== KAR YAĞIŞI ===== */
+        /* ===== SNOWFALL ===== */
         .snowflake {
             position: fixed;
             top: -10px;
@@ -100,7 +100,7 @@
             width: 100%;
         }
 
-        /* ===== HERO BÖLÜMÜ ===== */
+        /* ===== HERO SECTION ===== */
         .hero {
             min-height: 100vh;
             display: flex;
@@ -185,7 +185,7 @@
             box-shadow: 0 15px 50px rgba(0, 210, 255, 0.5);
         }
 
-        /* ===== DALGA GEÇİŞİ ===== */
+        /* ===== WAVE DIVIDER ===== */
         .wave-divider {
             width: 100%;
             overflow: hidden;
@@ -199,7 +199,7 @@
             height: 80px;
         }
 
-        /* ===== İSTATİSTİKLER ===== */
+        /* ===== STATS ===== */
         .stats-section {
             padding: 80px 40px;
             background: linear-gradient(180deg, #0d1235 0%, #0a0e27 100%);
@@ -251,7 +251,7 @@
             margin-top: 5px;
         }
 
-        /* ===== PENGUEN TÜRLERİ ===== */
+        /* ===== PENGUIN SPECIES ===== */
         .species-section {
             padding: 100px 40px;
             background: #0a0e27;
@@ -403,7 +403,7 @@
             border: 1px solid rgba(52, 211, 153, 0.2);
         }
 
-        /* ===== EĞLENCELİ BİLGİLER ===== */
+        /* ===== FUN FACTS ===== */
         .fun-section {
             padding: 100px 40px;
             background: linear-gradient(180deg, #0a0e27 0%, #0d1235 50%, #0a0e27 100%);
@@ -469,7 +469,7 @@
             z-index: 1;
         }
 
-        /* ===== PENGUEN BOYUT KARŞILAŞTIRMASI ===== */
+        /* ===== PENGUIN SIZE COMPARISON ===== */
         .size-section {
             padding: 100px 40px;
             background: #0a0e27;
@@ -582,7 +582,7 @@
             color: #00d2ff;
         }
 
-        /* ===== SCROLL ANİMASYONLARI ===== */
+        /* ===== SCROLL ANIMATIONS ===== */
         .reveal {
             opacity: 0;
             transform: translateY(40px);
@@ -594,7 +594,7 @@
             transform: translateY(0);
         }
 
-        /* ===== MOBİL UYUMLULUK ===== */
+        /* ===== RESPONSIVE ===== */
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2.2em;
@@ -633,7 +633,7 @@
             }
         }
 
-        /* ===== TIK EFEKTİ ===== */
+        /* ===== CLICK EFFECT ===== */
         .click-effect {
             position: fixed;
             pointer-events: none;
@@ -651,111 +651,111 @@
 
     <!-- NAVBAR -->
     <nav class="navbar">
-        <div class="logo">🐧 PenguenDünyası</div>
+        <div class="logo">🐧 PenguinWorld</div>
         <ul class="nav-links">
-            <li><a href="#anasayfa">Ana Sayfa</a></li>
-            <li><a href="#turler">Türler</a></li>
-            <li><a href="#bilgiler">Bilgiler</a></li>
-            <li><a href="#boyut">Boyutlar</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#species">Species</a></li>
+            <li><a href="#facts">Facts</a></li>
+            <li><a href="#sizes">Sizes</a></li>
         </ul>
     </nav>
 
     <!-- HERO -->
-    <section class="hero" id="anasayfa">
+    <section class="hero" id="home">
         <div class="hero-penguin" id="mainPenguin">🐧</div>
-        <h1><span class="gradient-text">Penguenlerin</span><br>Büyülü Dünyası</h1>
-        <p>Buzulların en sevimli sakinleriyle tanışın! Antarktika'nın soğuk sularından tropik adalara kadar, penguenlerin inanılmaz dünyasını keşfedin.</p>
-        <a href="#turler" class="hero-btn">🧊 Keşfetmeye Başla</a>
+        <h1><span class="gradient-text">The Magical World</span><br>of Penguins</h1>
+        <p>Meet the most charming residents of the ice! From the cold waters of Antarctica to tropical islands, discover the incredible world of penguins.</p>
+        <a href="#species" class="hero-btn">🧊 Start Exploring</a>
     </section>
 
-    <!-- DALGA -->
+    <!-- WAVE -->
     <div class="wave-divider">
         <svg viewBox="0 0 1200 80" preserveAspectRatio="none">
             <path d="M0,40 C300,80 900,0 1200,40 L1200,80 L0,80 Z" fill="#0d1235"/>
         </svg>
     </div>
 
-    <!-- İSTATİSTİKLER -->
+    <!-- STATS -->
     <section class="stats-section">
         <div class="stats-grid">
             <div class="stat-card reveal">
                 <span class="stat-emoji">🌍</span>
                 <span class="stat-number" data-target="18">0</span>
-                <span class="stat-label">Farklı Tür</span>
+                <span class="stat-label">Different Species</span>
             </div>
             <div class="stat-card reveal">
                 <span class="stat-emoji">❄️</span>
                 <span class="stat-number" data-target="-60">0</span>
-                <span class="stat-label">°C Dayanıklılık</span>
+                <span class="stat-label">°C Cold Tolerance</span>
             </div>
             <div class="stat-card reveal">
                 <span class="stat-emoji">🏊</span>
                 <span class="stat-number" data-target="36">0</span>
-                <span class="stat-label">km/s Yüzme Hızı</span>
+                <span class="stat-label">km/h Swimming Speed</span>
             </div>
             <div class="stat-card reveal">
                 <span class="stat-emoji">🤿</span>
                 <span class="stat-number" data-target="535">0</span>
-                <span class="stat-label">Metre Dalış Derinliği</span>
+                <span class="stat-label">Metres Dive Depth</span>
             </div>
         </div>
     </section>
 
-    <!-- PENGUEN TÜRLERİ -->
-    <section class="species-section" id="turler">
+    <!-- PENGUIN SPECIES -->
+    <section class="species-section" id="species">
         <div class="section-title reveal">
-            <h2>Penguen <span class="highlight">Türleri</span> 🐧</h2>
-            <p>Dünya üzerinde 18 farklı penguen türü yaşamaktadır</p>
+            <h2>Penguin <span class="highlight">Species</span> 🐧</h2>
+            <p>There are 18 different penguin species in the world</p>
         </div>
 
         <div class="species-grid">
-            <!-- İmparator -->
+            <!-- Emperor -->
             <div class="species-card reveal">
                 <div class="card-header">
                     <span class="penguin-icon">👑</span>
-                    <h3>İmparator Penguen</h3>
+                    <h3>Emperor Penguin</h3>
                     <div class="latin-name">Aptenodytes forsteri</div>
                 </div>
                 <div class="card-body">
-                    <p>En büyük penguen türüdür. 1.2 metreye kadar boylanabilir ve 45 kg'a ulaşabilir. Antarktika'nın en soğuk koşullarında yaşar ve -60°C'ye dayanabilir!</p>
+                    <p>The largest penguin species. It grows up to 1.2 metres and can reach 45 kg. It lives in the coldest conditions of Antarctica and withstands -60°C!</p>
                     <div class="card-tags">
-                        <span class="card-tag tag-blue">🧊 Antarktika</span>
-                        <span class="card-tag tag-purple">👑 En Büyük</span>
-                        <span class="card-tag tag-pink">❤️ Sadık Eş</span>
+                        <span class="card-tag tag-blue">🧊 Antarctica</span>
+                        <span class="card-tag tag-purple">👑 Largest</span>
+                        <span class="card-tag tag-pink">❤️ Loyal Partner</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Kral -->
+            <!-- King -->
             <div class="species-card reveal">
                 <div class="card-header">
                     <span class="penguin-icon">🤴</span>
-                    <h3>Kral Penguen</h3>
+                    <h3>King Penguin</h3>
                     <div class="latin-name">Aptenodytes patagonicus</div>
                 </div>
                 <div class="card-body">
-                    <p>İmparator pengueninden sonra en büyük ikinci türdür. Parlak turuncu-altın boyun tüyleriyle tanınır. Yavruları tüylü kahverengi paltolarıyla çok sevimlidir!</p>
+                    <p>The second largest species after the emperor penguin. Known for its bright orange-gold neck feathers. Its chicks are adorable in their fluffy brown coats!</p>
                     <div class="card-tags">
-                        <span class="card-tag tag-green">🏝️ Sub-Antarktik</span>
-                        <span class="card-tag tag-purple">🧡 Turuncu Boyun</span>
+                        <span class="card-tag tag-green">🏝️ Sub-Antarctic</span>
+                        <span class="card-tag tag-purple">🧡 Orange Neck</span>
                         <span class="card-tag tag-blue">📏 95cm</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Adelie -->
+            <!-- Adélie -->
             <div class="species-card reveal">
                 <div class="card-header">
                     <span class="penguin-icon">🎩</span>
-                    <h3>Adelie Penguen</h3>
+                    <h3>Adélie Penguin</h3>
                     <div class="latin-name">Pygoscelis adeliae</div>
                 </div>
                 <div class="card-body">
-                    <p>Klasik "smokin" görünümüyle en bilinen penguen türlerinden biridir. Çok meraklı ve cesur bir yapıya sahiptir. Sevdiklerine taş hediye ederler!</p>
+                    <p>One of the best known species, with its classic "tuxedo" look. Curious and bold by nature. They give pebbles as gifts to the ones they love!</p>
                     <div class="card-tags">
-                        <span class="card-tag tag-pink">💎 Taş Hediye</span>
-                        <span class="card-tag tag-blue">🧊 Antarktika</span>
-                        <span class="card-tag tag-green">🏃 Hızlı</span>
+                        <span class="card-tag tag-pink">💎 Pebble Gift</span>
+                        <span class="card-tag tag-blue">🧊 Antarctica</span>
+                        <span class="card-tag tag-green">🏃 Fast</span>
                     </div>
                 </div>
             </div>
@@ -764,122 +764,122 @@
             <div class="species-card reveal">
                 <div class="card-header">
                     <span class="penguin-icon">🎸</span>
-                    <h3>Macaroni Penguen</h3>
+                    <h3>Macaroni Penguin</h3>
                     <div class="latin-name">Eudyptes chrysolophus</div>
                 </div>
                 <div class="card-body">
-                    <p>Sarı-turuncu tepesi ile rock yıldızı gibi görünen bu tür, en kalabalık penguen kolonilerini oluşturur. Tek bir koloni 100.000'den fazla çift barındırabilir!</p>
+                    <p>Looking like a rock star with its yellow-orange crest, this species forms the most crowded penguin colonies. A single colony can hold more than 100,000 pairs!</p>
                     <div class="card-tags">
-                        <span class="card-tag tag-purple">🎵 Rock Yıldızı</span>
-                        <span class="card-tag tag-pink">👨‍👩‍👧‍👦 Kalabalık</span>
-                        <span class="card-tag tag-green">🌊 Okyanus</span>
+                        <span class="card-tag tag-purple">🎵 Rock Star</span>
+                        <span class="card-tag tag-pink">👨‍👩‍👧‍👦 Crowded</span>
+                        <span class="card-tag tag-green">🌊 Ocean</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Küçük Mavi -->
+            <!-- Little Blue -->
             <div class="species-card reveal">
                 <div class="card-header">
                     <span class="penguin-icon">💙</span>
-                    <h3>Küçük Mavi Penguen</h3>
+                    <h3>Little Blue Penguin</h3>
                     <div class="latin-name">Eudyptula minor</div>
                 </div>
                 <div class="card-body">
-                    <p>Dünyanın en küçük penguen türüdür! Sadece 33 cm boyunda ve 1 kg ağırlığında olan bu minik penguen, Avustralya ve Yeni Zelanda kıyılarında yaşar.</p>
+                    <p>The smallest penguin species in the world! Just 33 cm tall and 1 kg in weight, this tiny penguin lives along the coasts of Australia and New Zealand.</p>
                     <div class="card-tags">
-                        <span class="card-tag tag-blue">🔬 En Küçük</span>
-                        <span class="card-tag tag-green">🦘 Avustralya</span>
-                        <span class="card-tag tag-purple">🌙 Gece Aktif</span>
+                        <span class="card-tag tag-blue">🔬 Smallest</span>
+                        <span class="card-tag tag-green">🦘 Australia</span>
+                        <span class="card-tag tag-purple">🌙 Nocturnal</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Galapagos -->
+            <!-- Galápagos -->
             <div class="species-card reveal">
                 <div class="card-header">
                     <span class="penguin-icon">🌴</span>
-                    <h3>Galapagos Penguen</h3>
+                    <h3>Galápagos Penguin</h3>
                     <div class="latin-name">Spheniscus mendiculus</div>
                 </div>
                 <div class="card-body">
-                    <p>Ekvatorun kuzeyinde yaşayan tek penguen türü! Soğuk Humboldt akıntısı sayesinde tropik adalarda hayatta kalabilir. Tehlike altındaki nadir türlerdendir.</p>
+                    <p>The only penguin species living north of the equator! It survives on tropical islands thanks to the cold Humboldt current. One of the rare endangered species.</p>
                     <div class="card-tags">
-                        <span class="card-tag tag-pink">🌺 Tropik</span>
+                        <span class="card-tag tag-pink">🌺 Tropical</span>
                         <span class="card-tag tag-blue">🌊 Humboldt</span>
-                        <span class="card-tag tag-green">⚠️ Tehlikede</span>
+                        <span class="card-tag tag-green">⚠️ Endangered</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- EĞLENCELİ BİLGİLER -->
-    <section class="fun-section" id="bilgiler">
+    <!-- FUN FACTS -->
+    <section class="fun-section" id="facts">
         <div class="section-title reveal">
-            <h2>Eğlenceli <span class="highlight">Bilgiler</span> 🎉</h2>
-            <p>Penguenler hakkında bilmediğiniz şaşırtıcı gerçekler</p>
+            <h2>Fun <span class="highlight">Facts</span> 🎉</h2>
+            <p>Surprising things you did not know about penguins</p>
         </div>
 
         <div class="fun-grid">
             <div class="fun-card reveal">
                 <span class="fun-emoji">💍</span>
-                <h3>Taş ile Evlenme Teklifi</h3>
-                <p>Adelie penguenleri, beğendikleri dişiye en güzel çakıl taşını hediye ederek evlenme teklifi yapar. Dişi taşı beğenirse, birlikte yuva kurarlar!</p>
+                <h3>Proposing With a Pebble</h3>
+                <p>Adélie penguins propose by offering the finest pebble they can find to the female they like. If she approves of the pebble, they build a nest together!</p>
             </div>
 
             <div class="fun-card reveal">
                 <span class="fun-emoji">🫂</span>
-                <h3>Birlikte Isınma</h3>
-                <p>İmparator penguenleri, -60°C soğuklarda hayatta kalmak için "huddle" adı verilen dev bir grup oluşturur. Sırayla ortaya geçerek ısınırlar!</p>
+                <h3>Huddling for Warmth</h3>
+                <p>To survive -60°C cold, emperor penguins form a huge group called a "huddle". They take turns moving to the centre to warm up!</p>
             </div>
 
             <div class="fun-card reveal">
                 <span class="fun-emoji">🏃‍♂️</span>
-                <h3>Karın Üstünde Kayma</h3>
-                <p>Penguenler yürümek yerine karınlarının üstüne yatıp kayarak hareket edebilir. Bu harekete "tobogganing" denir ve enerji tasarrufu sağlar!</p>
+                <h3>Sliding on Their Bellies</h3>
+                <p>Instead of walking, penguins can lie on their bellies and slide. This move is called "tobogganing" and it saves a lot of energy!</p>
             </div>
 
             <div class="fun-card reveal">
                 <span class="fun-emoji">🧂</span>
-                <h3>Tuzlu Su İçebilirler</h3>
-                <p>Penguenlerin gözlerinin arkasında özel bir bez vardır. Bu bez, deniz suyundaki fazla tuzu filtreler. Böylece tuzlu su içebilirler!</p>
+                <h3>They Can Drink Salt Water</h3>
+                <p>Penguins have a special gland behind their eyes. It filters the excess salt out of sea water, so they can drink straight from the ocean!</p>
             </div>
 
             <div class="fun-card reveal">
                 <span class="fun-emoji">🎵</span>
-                <h3>Benzersiz Ses</h3>
-                <p>Her penguenin kendine özgü bir sesi vardır. Binlerce penguen arasında eşlerini ve yavrularını bu benzersiz sesleriyle bulabilirler!</p>
+                <h3>A Unique Call</h3>
+                <p>Every penguin has its own distinct call. Among thousands of birds they can find their partner and their chicks by that unique sound alone!</p>
             </div>
 
             <div class="fun-card reveal">
                 <span class="fun-emoji">🦕</span>
-                <h3>60 Milyon Yıllık Tarih</h3>
-                <p>Penguenler 60 milyon yıldır Dünya'da yaşıyor! Ataları dinozorlarla aynı dönemde yaşamış ve uçabilen kuşlardı!</p>
+                <h3>60 Million Years of History</h3>
+                <p>Penguins have lived on Earth for 60 million years! Their ancestors shared the planet with dinosaurs and were birds that could fly!</p>
             </div>
         </div>
     </section>
 
-    <!-- BOYUT KARŞILAŞTIRMASI -->
-    <section class="size-section" id="boyut">
+    <!-- SIZE COMPARISON -->
+    <section class="size-section" id="sizes">
         <div class="section-title reveal">
-            <h2>Boyut <span class="highlight">Karşılaştırması</span> 📏</h2>
-            <p>En küçüğünden en büyüğüne penguen boyutları</p>
+            <h2>Size <span class="highlight">Comparison</span> 📏</h2>
+            <p>Penguin sizes from the smallest to the largest</p>
         </div>
 
         <div class="size-comparison reveal">
             <div class="penguin-size">
                 <div class="size-bar" style="height: 80px; background: linear-gradient(180deg, #60a5fa, #3b82f6);">🐧</div>
-                <span class="size-label">Küçük Mavi</span>
+                <span class="size-label">Little Blue</span>
                 <span class="size-height">33 cm</span>
             </div>
             <div class="penguin-size">
                 <div class="size-bar" style="height: 110px; background: linear-gradient(180deg, #a78bfa, #7c3aed);">🐧</div>
-                <span class="size-label">Galapagos</span>
+                <span class="size-label">Galápagos</span>
                 <span class="size-height">49 cm</span>
             </div>
             <div class="penguin-size">
                 <div class="size-bar" style="height: 150px; background: linear-gradient(180deg, #f472b6, #ec4899);">🐧</div>
-                <span class="size-label">Adelie</span>
+                <span class="size-label">Adélie</span>
                 <span class="size-height">70 cm</span>
             </div>
             <div class="penguin-size">
@@ -889,12 +889,12 @@
             </div>
             <div class="penguin-size">
                 <div class="size-bar" style="height: 230px; background: linear-gradient(180deg, #34d399, #10b981);">🐧</div>
-                <span class="size-label">Kral</span>
+                <span class="size-label">King</span>
                 <span class="size-height">95 cm</span>
             </div>
             <div class="penguin-size">
                 <div class="size-bar" style="height: 290px; background: linear-gradient(180deg, #fbbf24, #f59e0b);">👑</div>
-                <span class="size-label">İmparator</span>
+                <span class="size-label">Emperor</span>
                 <span class="size-height">120 cm</span>
             </div>
         </div>
@@ -904,22 +904,22 @@
     <footer class="footer">
         <span class="footer-penguin">🐧</span>
         <p>
-            <span class="heart">❤️</span> ile yapıldı — Penguenlerin Büyülü Dünyası © 2026
+            Made with <span class="heart">❤️</span> — The Magical World of Penguins © 2026
         </p>
         <p style="margin-top: 10px; color: #334466; font-size: 0.8em;">
-            Bu site eğitim ve eğlence amaçlıdır. Penguenleri sevelim ve koruyalım! 🌍
+            This site is for education and fun. Let's love and protect penguins! 🌍
         </p>
         <div class="footer-links">
-            <a href="#anasayfa">🏠 Ana Sayfa</a>
-            <a href="#turler">🐧 Türler</a>
-            <a href="#bilgiler">🎉 Bilgiler</a>
-            <a href="#boyut">📏 Boyutlar</a>
+            <a href="#home">🏠 Home</a>
+            <a href="#species">🐧 Species</a>
+            <a href="#facts">🎉 Facts</a>
+            <a href="#sizes">📏 Sizes</a>
         </div>
     </footer>
 
     <!-- JAVASCRIPT -->
     <script>
-        // ===== KAR YAĞIŞI =====
+        // ===== SNOWFALL =====
         function createSnowflakes() {
             const snowflakes = ['❄', '❅', '❆', '✦', '•'];
             const container = document.body;
@@ -940,7 +940,7 @@
 
         createSnowflakes();
 
-        // ===== SCROLL ANİMASYONLARI =====
+        // ===== SCROLL ANIMATIONS =====
         const revealElements = document.querySelectorAll('.reveal');
         
         const revealObserver = new IntersectionObserver((entries) => {
@@ -955,7 +955,7 @@
 
         revealElements.forEach(el => revealObserver.observe(el));
 
-        // ===== SAYAÇ ANİMASYONU =====
+        // ===== COUNTER ANIMATION =====
         const statNumbers = document.querySelectorAll('.stat-number[data-target]');
         
         const counterObserver = new IntersectionObserver((entries) => {
@@ -990,7 +990,7 @@
             requestAnimationFrame(update);
         }
 
-        // ===== PENGUEN TIKLA EFEKTİ =====
+        // ===== PENGUIN CLICK EFFECT =====
         const mainPenguin = document.getElementById('mainPenguin');
         const penguinEmojis = ['🐧', '🐦', '🥶', '❄️', '🧊', '🐟', '🦐', '💙'];
         let penguinIndex = 0;
@@ -1004,7 +1004,7 @@
             }, 300);
         });
 
-        // ===== TIKLA EFEKTİ (HER YERDE) =====
+        // ===== CLICK EFFECT (ANYWHERE) =====
         document.addEventListener('click', (e) => {
             const emojis = ['🐧', '❄️', '✨', '💙', '🧊'];
             const effect = document.createElement('div');
@@ -1017,7 +1017,7 @@
             setTimeout(() => effect.remove(), 600);
         });
 
-        // ===== NAVBAR SCROLL EFEKTİ =====
+        // ===== NAVBAR SCROLL EFFECT =====
         window.addEventListener('scroll', () => {
             const navbar = document.querySelector('.navbar');
             if (window.scrollY > 50) {
@@ -1040,9 +1040,9 @@
             });
         });
 
-        // ===== KONSOL MESAJI =====
-        console.log('%c🐧 Penguenlerin Büyülü Dünyası!', 'color: #00d2ff; font-size: 24px; font-weight: bold;');
-        console.log('%cBu site sevgiyle yapılmıştır. Penguenleri koruyalım! 💙', 'color: #7b61ff; font-size: 14px;');
+        // ===== CONSOLE MESSAGE =====
+        console.log('%c🐧 The Magical World of Penguins!', 'color: #00d2ff; font-size: 24px; font-weight: bold;');
+        console.log('%cThis site was made with love. Let\'s protect penguins! 💙', 'color: #7b61ff; font-size: 14px;');
     </script>
 </body>
 </html>

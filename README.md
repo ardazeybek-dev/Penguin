@@ -1,35 +1,35 @@
-# 🐧 Penguenlerin Büyülü Dünyası
+# 🐧 The Magical World of Penguins
 
-Penguenler hakkında eğlenceli, renkli ve interaktif bir web sitesi. Tamamen tek bir HTML dosyasından
-oluşur — dış bağımlılık, kurulum veya build adımı gerektirmez.
+A fun, colourful and interactive website about penguins. It is a single HTML
+file — no external dependencies, no installation and no build step.
 
-👉 **Canlı Site:** [https://penguen-arda.shipstatic.com](https://penguen-arda.shipstatic.com)
+👉 **Live site:** [https://penguen-arda.shipstatic.com](https://penguen-arda.shipstatic.com)
 
-## 🌟 İçindekiler
+## 🌟 Contents
 
-- **Ana Sayfa:** Renkli, animasyonlu bir karşılama bölümü
-- **Penguen Türleri:** İmparator, Kral, Adelie, Macaroni, Küçük Mavi ve Galapagos penguenleri
-- **Eğlenceli Bilgiler:** Taşla evlenme teklifi, birlikte ısınma, karın üstünde kayma, tuzlu su içebilme,
-  benzersiz sesler ve 60 milyon yıllık tarih
-- **Boyut Karşılaştırması:** Farklı penguen türlerinin boyutları
+- **Home:** a colourful, animated welcome section
+- **Penguin species:** Emperor, King, Adélie, Macaroni, Little Blue and Galápagos penguins
+- **Fun facts:** proposing with a pebble, huddling for warmth, tobogganing on their
+  bellies, drinking salt water, unique calls and 60 million years of history
+- **Size comparison:** how the different species measure up
 
-## 🛠️ Teknoloji
+## 🛠️ Technology
 
-- Saf HTML5, CSS3 ve JavaScript (tek dosya: `index.html`)
-- Harici kütüphane veya API kullanmaz — %100 statik ve çevrimdışı çalışır
+- Plain HTML5, CSS3 and JavaScript (a single file: `index.html`)
+- No external library or API — 100% static, works offline
 
-## 🚀 Çalıştırma
+## 🚀 Running it
 
-Kurulum yok! `index.html` dosyasını bir tarayıcıda açman yeterli:
+Nothing to install! Just open `index.html` in a browser:
 
 ```bash
-# Depoyu klonla
+# Clone the repository
 git clone https://github.com/ardazeybek-dev/Penguin.git
 cd Penguin
 ```
 
-Ardından `index.html` dosyasına çift tıkla ve tarayıcıda aç.
+Then double-click `index.html` to open it in your browser.
 
-## 📄 Lisans
+## 📄 License
 
-Eğlence amaçlı, açık kaynak bir projedir. 🐧
+An open-source project made for fun. 🐧
