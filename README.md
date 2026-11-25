@@ -32,4 +32,4 @@ Then double-click `index.html` to open it in your browser.
 
 ## 📄 License
 
-An open-source project made for fun. 🐧
+MIT, see [LICENSE](LICENSE). An open-source project made for fun. 🐧
